@@ -1,0 +1,24 @@
+#scroll-to-top-btn {
+  position: fixed;
+  bottom: 75px;
+  right: 50px;
+  background-color: #007bff;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#scroll-to-top-btn:hover {
+  background-color: #0056b3;
+}
+
+#scroll-to-top-btn.show {
+  animation: fadeIn 0.3s ease-in-out;
+}

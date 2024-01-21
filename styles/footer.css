@@ -1,0 +1,51 @@
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.footer-background {
+    background-color: #34495e;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-button,
+.vk-button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.github-button:hover,
+.vk-button:hover {
+    background-color: #2980b9;
+}
+
+.github-button {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.vk-button {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.footer-buttons {
+    display: flex;
+}
+
+.github-button + .vk-button {
+    margin-left: 8px;
+}
+
+.github-button:hover,
+.vk-button:hover {
+    background-color: #2980b9;
+}
